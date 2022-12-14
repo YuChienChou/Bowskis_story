@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bowski's Story</title>
+</head>
+<body>
+    <div class="nav">
+        <p id="home">HOME</p>
+        <p id="survey">SURVEY</p>
+        <p id="more_info">MORE INFO</p>
+        <p id="see_more">SEE MORE BOWSKI</p>
+    </div>
+
+    <form method="post">
+        <fieldset>
+            <legend>Please help with a survey</legend>
+
+            <div>
+                <label for="firstName">First Name</label>
+                <input type="text" id="firstName" name="first_name">
+            </div>
+
+            <div>
+                <label for="lasttName">Last Name</label>
+                <input type="text" id="LastName" name="last_name">
+            </div>
+
+            <div>
+                <label for="age">Age</label>
+                <select id="age" name="age">
+                    <option value="under20">Under 20</option>
+                    <option value="21-30">21 ~ 30</option>
+                    <option value="31-40">31 ~ 40</option>
+                    <option value="41-50">41 ~ 50</option>
+                    <option value="51-60">51 ~ 60</option>
+                    <option value="over61">Over 61</option>
+                </select>
+            </div>
+
+            <div>
+                <p>Do you prefer to buy a pet from a pet shop or adopt a pet from a shelter?</p>
+
+                <div>
+                    <input type="checkbox" id="buy" name="buy_pet">
+                    <label for="buy">To buy a pet from a pet shop</label>
+                </div>
+
+                <div>
+                    <input type="checkbox" id="adopt" name="adopt_pet">
+                    <label for="adopt">To adopt a pet from a shelter</label>
+                </div>
+            </div>
+
+            <div>
+                <label for="comment">Please explicit your reason</label>
+                <textarea id="comment" name="comment_for_reason"></textarea>
+            </div>
+
+            <div>
+                <button type="submit" id="submit">Submit</button>
+                <lable for="submit">Thank you for your help!</lable>
+            </div>
+
+        </fieldset>
+    </form>
+
+
+</body>
+</html>

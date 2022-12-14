@@ -1,9 +1,12 @@
 # h1
-font: mugle
+font-family: mugle
 color: #000000
 
+# h2
+font-family: fangsong
+
 # text
-font: Tohama
+font-family: Tohama
 color: #a9a9a9
 
 # page 1: home page
