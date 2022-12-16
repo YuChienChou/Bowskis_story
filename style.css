@@ -102,6 +102,11 @@ form {
 legend {
     margin-left: 50px;
     font-weight: bold;
+    font-size: 30px;
+    font-family: Helvetica, sans-serif;
+    color:hwb(160 4% 50%);
+    background-color:rgb(25, 182, 130);
+    padding: 5px;
 }
 
 fieldset {
@@ -136,3 +141,42 @@ button {
     width: 150px;
     height: 20px;
 }
+
+
+/*p3.html*/
+
+#p3_h1 {
+    font-size:60px;
+    margin-bottom: 20px;
+}
+
+.more_info {
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./img/bowski-p1.jpg);
+    background-size: 200px;
+    background-repeat: repeat;
+    background-position: center;
+}
+
+.list {
+    width: 800px;
+    height: 400px;
+    display:grid;
+    grid-template-rows: repeat(5, 1fr);
+    background-color: #ffffff;
+    opacity: 90%;
+    padding: 10px;
+}
+
+.list div {
+    align-self: center;
+    justify-self: center;
+}
+
+
+/*p4.html*/
+
+
