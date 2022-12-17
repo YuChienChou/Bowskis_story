@@ -30,6 +30,8 @@ h2 {
 
 p {
     font-family: Tahoma, sans-serif;
+    text-indent: 30px;
+    margin-bottom: 10px;
 }
 
 /*nav section*/
@@ -76,13 +78,14 @@ p {
 }
 
 .story div {
-    padding: 3px 3px;
+    padding: 5px 5px;
 
 }
 
 #first_time {
     background-color: #acdaeb;
     border-radius: 3px;
+    height: 360px;
 }
 
 
