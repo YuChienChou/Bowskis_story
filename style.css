@@ -7,6 +7,7 @@ body {
     width: 1200px;
     padding: 30px 30px;
     box-sizing: border-box;
+    margin: 0 auto;
 }
 
 h1 {
@@ -40,15 +41,16 @@ p {
     display: flex;
     justify-content: space-between;
     margin-bottom: 20px;
+    background-color:#ebeaac;
+    border-radius: 3px;
 }
 
 .nav div {
-    background-color:#ebeaac;
     width: 180px;
     text-align: center;
     padding: 5px;
     font-weight: bold;
-    border-radius: 3px;
+
 }
 .nav a {
     text-decoration: none;
